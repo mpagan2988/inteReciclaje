@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="inteReciclaje.selectLogin">
+
+    <ContentPage.Content >
+
+        <StackLayout BackgroundColor="#393E41" >
+            <Frame VerticalOptions="End" 
+                   BackgroundColor="#393E41"
+                   Margin="1,1,1,430">
+            </Frame>
+            
+            <Button Text="Iniciar Sesión"
+                    TextColor="White"
+                    BackgroundColor="#8CD867"
+                    x:Name="inSesion_btn"
+                    Clicked="inSesion_btn_Clicked"
+                    />
+
+            <Button Text="Registrarse"
+                    TextColor="White" 
+                    BackgroundColor="#8CD867"
+                    x:Name="registrarse_btn"
+                    Clicked="registrarse_btn_Clicked"/>
+
+            <Button Text="Olvidaste tu contraseña?"
+                   TextColor="White"
+                   FontSize="Small"
+                   BackgroundColor="#393E41"
+                   x:Name="resetPswrd_btn"
+                    Clicked="resetPswrd_btn_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

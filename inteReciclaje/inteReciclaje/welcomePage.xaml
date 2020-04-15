@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="inteReciclaje.welcomePage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#393E41">
+            <Label Text="Bienvenido"
+                 FontSize="65"
+                 Margin="1,1,1,1"
+                 HorizontalOptions="Center"
+                   TextColor="White"
+                 />
+        
+            <Label Text="A"
+                 FontSize="65"
+                 Margin="1,1,1,1"
+                 HorizontalOptions="Center"
+                   TextColor="White"/>
+
+            <Label Text="InteReciclaje"
+                   HorizontalOptions="CenterAndExpand" 
+                   FontSize="45"
+                   Margin="1,1,1,1"
+                   TextColor="White"/>
+
+            <Frame VerticalOptions="EndAndExpand"
+                   BackgroundColor="Transparent"
+                   HasShadow="False">
+                <Label
+                   Text="Gracias por utilizar esta aplicación.
+Buscamos líderes dispuestos a realizar 'DIY' de reciclaje y participar en eventos de
+reciclaje en areas que lo necesitan.
+Evitemos la contaminación y creemos un recinto libre de plasticos. "
+                   HorizontalTextAlignment="Center"
+                   TextColor="White"/>
+            </Frame>
+            <Button Text="Toca para continuar"
+                    BackgroundColor="Transparent"
+                    TextColor="White"
+                    x:Name="continueBtn"
+                    Clicked="continueBtn_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

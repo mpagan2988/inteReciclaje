@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="inteReciclaje.tabPage_nav">
+
+
+    <ContentPage Title="Foro" BackgroundColor="#393E41">
+        <StackLayout BackgroundColor="#393E41">
+            <Label Text="Foro"
+                VerticalOptions="StartAndExpand"  
+                HorizontalOptions="FillAndExpand"
+                   TextColor="White" 
+                   FontSize="45"
+                   BackgroundColor="#60B85D"
+                   HorizontalTextAlignment="Center"
+                   />
+            <Label Text="COMING SOON!"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   TextColor="White"
+                   FontSize="Large"/>
+        </StackLayout>
+    </ContentPage>
+
+
+
+
+    <ContentPage Title="Recompensas" BackgroundColor="#393E41">
+        <StackLayout BackgroundColor="#393E41">
+            <Label Text="Recompensas"
+                VerticalOptions="StartAndExpand"  
+                HorizontalOptions="FillAndExpand"
+                   TextColor="White" 
+                   FontSize="45"
+                   BackgroundColor="#60B85D"
+                   HorizontalTextAlignment="Center"
+                   />
+            <Label Text="COMING SOON!"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   TextColor="White"
+                   FontSize="Large"/>
+        </StackLayout>
+    </ContentPage>
+
+
+
+
+    <ContentPage Title="Informacion" BackgroundColor="#393E41">
+        <StackLayout>
+            <Label Text="Información"
+                VerticalOptions="StartAndExpand"  
+                HorizontalOptions="FillAndExpand"
+                   TextColor="White" 
+                   FontSize="45"
+                   BackgroundColor="#60B85D"
+                   HorizontalTextAlignment="Center"
+                   />
+            
+            <Button Text="Tipos de reciclaje"
+                    BackgroundColor="#8CD867"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    WidthRequest="200"
+                    HeightRequest="56"
+                    x:Name="typesOfRec_btn"
+                    Clicked="typesOfRec_btn_Clicked"
+                  />
+
+            <Button Text="Ventajas del Reciclaje"
+                    BackgroundColor="#8CD867"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    WidthRequest="200"
+                    HeightRequest="56"
+                    x:Name="ventajasRec_btn"
+                    Clicked="ventajasRec_btn_Clicked"
+                    />
+
+            <Button Text="Desventajas del Reciclaje"
+                    BackgroundColor="#8CD867"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    WidthRequest="200"
+                    HeightRequest="56"
+                    x:Name="desventajasRc_btn"
+                    Clicked="desventajasRc_btn_Clicked"
+                    />
+        </StackLayout>
+    </ContentPage>
+
+
+
+
+
+    <ContentPage Title="Perfil" BackgroundColor="#393E41">
+        <StackLayout BackgroundColor="#393E41">
+            <Label Text="Perfil"
+                VerticalOptions="StartAndExpand"  
+                HorizontalOptions="FillAndExpand"
+                   TextColor="White" 
+                   FontSize="45"
+                   BackgroundColor="#60B85D"
+                   HorizontalTextAlignment="Center"
+                   />
+            <Label Text="COMING SOON!"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   TextColor="White"
+                   FontSize="Large"/>
+        </StackLayout>
+    </ContentPage>
+
+
+
+
+    <ContentPage Title="Ajustes" BackgroundColor="#393E41">
+        <StackLayout BackgroundColor="#393E41">
+            <Label Text="Ajustes"
+                VerticalOptions="StartAndExpand"  
+                HorizontalOptions="FillAndExpand"
+                   TextColor="White" 
+                   FontSize="45"
+                   BackgroundColor="#60B85D"
+                   HorizontalTextAlignment="Center"
+                   />
+          
+            <Button Text="COMING SOON!"
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="Center"
+                    BackgroundColor="#8CD867"/>
+            
+            <Button Text="COMING SOON!"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="Center"
+                    BackgroundColor=" #8CD867"/>
+
+            <Button Text="Terminos y Condiciones"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="Center"
+                    BackgroundColor="#8CD867"
+                    x:Name="termsBtn"
+                    Clicked="termsBtn_Clicked"/>
+
+
+        </StackLayout>
+    </ContentPage>
+
+
+
+</TabbedPage>

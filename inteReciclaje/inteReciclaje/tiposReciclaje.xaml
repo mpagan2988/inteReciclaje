@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="inteReciclaje.tiposReciclaje">
+    
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#393E41">
+
+            <Grid VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Padding="90,1,1,1">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Button Grid.Row="0" Grid.Column="0" Text="Plastico" BackgroundColor="Yellow" HeightRequest="100" WidthRequest="250" x:Name="matPlastico_btn" Clicked="matPlastico_btn_Clicked"/>
+                <Button Grid.Row="0" Grid.Column="1" Text="Vidrio" BackgroundColor="Green" HeightRequest="100" WidthRequest="250" x:Name="matVidrio_btn" Clicked="matVidrio_btn_Clicked" />
+                <Button Grid.Row="1" Grid.Column="0" Text="Papel" BackgroundColor="#5cc8FF" HeightRequest="100" WidthRequest="250" x:Name="matPapel_btn" Clicked="matPapel_btn_Clicked"/>
+                <Button Grid.Row="1" Grid.Column="1" Text="Peligroso" BackgroundColor="Red" HeightRequest="100" WidthRequest="250" x:Name="matPeligroso_btn" Clicked="matPeligroso_btn_Clicked"/>
+                <Button Grid.Row="2" Grid.Column="0" Text="Organico" BackgroundColor="Orange" HeightRequest="100" WidthRequest="250" x:Name="matOrganico_btn" Clicked="matOrganico_btn_Clicked"/>
+                <Button  Grid.Row="2" Grid.Column="1" Text="Mezclado" BackgroundColor="DarkSlateGray" HeightRequest="100" WidthRequest="250" x:Name="matMezclado_btn" Clicked="matMezclado_btn_Clicked"/>
+            </Grid>
+            <Button Text="Volver al menu"
+                    x:Name="goBack_btn"
+                    Clicked="goBack_btn_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

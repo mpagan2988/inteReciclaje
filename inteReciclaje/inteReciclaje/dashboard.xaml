@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="inteReciclaje.dashboard">
+    
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#393E41">
+            <Frame Margin="0,0,100,100"
+                   HasShadow="False"
+                   BackgroundColor="Transparent">
+            </Frame>
+            <Button Text="Foro"
+                    BackgroundColor="#8CD867"
+                    HorizontalOptions="Center"
+                    WidthRequest="200"
+                    HeightRequest="56"
+                    x:Name="foroBtn"
+                    Clicked="foroBtn_Clicked"/>
+
+            <Button Text="Recompensas"
+                    BackgroundColor="#8CD867"
+                    HorizontalOptions="Center"
+                    WidthRequest="200"
+                    HeightRequest="56"   
+                    x:Name="recompensasBtn"
+                    Clicked= "recompensasBtn_Clicked"/>
+            
+                <Button Text="Información"
+                    BackgroundColor="#8CD867"
+                    HorizontalOptions="Center"
+                    WidthRequest="200"
+                    HeightRequest="56"
+                    x:Name="infoBtn"
+                    Clicked="infoBtn_Clicked"/>
+            
+                <Button Text="Perfil"
+                    BackgroundColor="#8CD867"
+                    HorizontalOptions="Center"
+                    WidthRequest="200"
+                    HeightRequest="56"
+                    x:Name="perfilBtn"
+                    Clicked="perfilBtn_Clicked"/>
+            
+                <Button Text="Ajustes"
+                    BackgroundColor="#8CD867"
+                    HorizontalOptions="Center"
+                    WidthRequest="200"
+                    HeightRequest="56"
+                    x:Name="ajustesBtn"
+                    Clicked="ajustesBtn_Clicked"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

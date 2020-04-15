@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="inteReciclaje.desventajas">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#393E41">
+            <Label Text="Desventajas"
+                VerticalOptions="StartAndExpand"  
+                HorizontalOptions="FillAndExpand"
+                   TextColor="White" 
+                   FontSize="65"
+                   BackgroundColor="#60B85D"
+                   HorizontalTextAlignment="Center"
+                   Margin="1,1,1,1"
+                   Padding="1,1,1,1"/>
+
+            <!-- image goes here-->
+
+            <Label Text="Lorem ipsum"
+                   HorizontalTextAlignment="Start" 
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="Start" 
+                   TextColor="White"
+                   FontSize="25"
+                   Margin="1,1,1,1"/>
+
+            <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac libero sit amet turpis molestie bibendum. Praese tincidunt pretium dui nec dictum. Intege rutrum metus sagittis purus placerat, et commodo elit pretiu. Sed at sem id justo tincidunt laoreet vitae vitae sapien."
+                   HorizontalTextAlignment="Start" 
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="Start" 
+                   TextColor="White"/>
+
+            <Button Text="Volver al menu"
+                    x:Name="goBack_btn"
+                    Clicked="goBack_btn_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

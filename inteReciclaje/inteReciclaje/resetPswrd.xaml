@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="inteReciclaje.resetPswrd">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor=" #393E41">
+            <Label Text="Reestablecer Contraseña"
+                   TextColor="White"
+                   FontSize="50"
+                   HorizontalTextAlignment="Center"
+                   Margin="1,1,1,150"/>
+
+
+            <Label Text="Correo electrónico:"
+                   TextColor="White" 
+                   FontSize="Large"
+                   HorizontalTextAlignment="Center" />
+            <Entry x:Name="username_entry"
+                   BackgroundColor=" #393E41"/>
+
+
+            <Button Text="Reestablecer Contraseña"
+                    BackgroundColor="#8CD867"
+                    x:Name="sendMailReset"
+                    Clicked="sendMailReset_Clicked"
+                    VerticalOptions="End"
+                    HorizontalOptions="CenterAndExpand"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

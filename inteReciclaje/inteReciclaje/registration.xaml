@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="inteReciclaje.registration">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor=" #393E41">
+            <Label Text="Crear Cuenta"
+                   TextColor="White"
+                   FontSize="Header"
+                   HorizontalTextAlignment="Center"/>
+
+
+            <Label Text="Nombre de Usuario:"
+                   TextColor="White" 
+                   FontSize="Large"
+                   HorizontalTextAlignment="Center" />
+            <Entry x:Name="username_entry"
+                   BackgroundColor=" #393E41"/>
+
+            <Label Text="Correo Electrónico:"
+                   TextColor="White" 
+                   FontSize="Large"
+                   HorizontalTextAlignment="Center" />
+            <Entry x:Name="email_entry"
+                   BackgroundColor=" #393E41" />
+
+            <Label Text="Contraseña:"
+                   TextColor="White"
+                   FontSize="Large"
+                   HorizontalTextAlignment="Center"/>
+            <Entry x:Name="password_entry"
+                   IsPassword="True" 
+                   BackgroundColor=" #393E41"/>
+
+            <Button Text=" Crear cuenta"
+                    BackgroundColor="#8CD867"
+                    x:Name="register_btn"
+                    Clicked="register_btn_Clicked"
+                    VerticalOptions="End"
+                    HorizontalOptions="CenterAndExpand"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

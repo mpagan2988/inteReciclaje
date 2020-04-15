@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="inteReciclaje.vidrio">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#393E41">
+            <Label Text="Vidrio"
+                VerticalOptions="StartAndExpand"  
+                HorizontalOptions="FillAndExpand"
+                   TextColor="White" 
+                   FontSize="65"
+                   BackgroundColor="#60B85D"
+                   HorizontalTextAlignment="Center"
+                   Margin="1,1,1,1"
+                   Padding="1,1,1,1"/>
+
+            <!-- image goes here-->
+
+            <Label Text="El vidrio es probablemente el material que mejor se adapta al reciclado ya que puede ser reutilizado y procesado una cantidad infinita de veces. Cuando el vidrio es sometido al proceso de reciclaje se ahorra hasta un 30% de la energía necesaria para la producción de vidrio nuevo."
+                   TextColor="White"
+                   BackgroundColor="Transparent"
+                   HorizontalTextAlignment="Center"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="Center"/>
+
+            <Button Text="Próximo material"
+                    x:Name="next_btn"
+                    Clicked ="next_btn_Clicked"/>
+            
+            <Button Text="Volver al menu"
+                    x:Name="goBack_btn"
+                    Clicked="goBack_btn_Clicked"/>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

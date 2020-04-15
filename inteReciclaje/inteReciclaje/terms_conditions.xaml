@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="inteReciclaje.terms_conditions">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#393E41">
+            <Label Text="Terminos y Condiciones de Uso"
+                VerticalOptions="StartAndExpand"  
+                HorizontalOptions="FillAndExpand"
+                   TextColor="White" 
+                   FontSize="45"
+                   BackgroundColor="#60B85D"
+                   HorizontalTextAlignment="Center"
+                   />
+
+            <!-- image goes here-->
+            <Label Text="Esta aplicación será únicamente exclusiva para estudiantes de la universidad Interamericana. Los estudiantes crearan una cuenta usando el email de la universidad para así poder confirmar su identidad. Una vez allá ingresado su email el estudiante recibirá noticias o actualizaciones de la aplicación InteReciclaje. 
+InteReciclaje se reserva el derecho de inmediatamente modificar, borrar contenido de, suspender o terminar tu cuenta y negar actual o futuro uso de la aplicación si en su exclusivo criterio cree que ha violado o trato de violar el derecho de los demás. En tal evento su cuenta puede ser suspendida o permanentemente terminada y no devolverá cualquier reembolso de los puntos que adquieras durante el uso de esta. 
+Una vez hallas creado la cuenta estarás aceptando los términos y condiciones. "
+                   HorizontalTextAlignment="Start" 
+                   VerticalOptions="StartAndExpand"
+                   HorizontalOptions="Start" 
+                   TextColor="White"/>
+
+            <Button Text="Volver al menu"
+                    x:Name="goBack_btn"
+                    Clicked="goBack_btn_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
